@@ -1,12 +1,12 @@
 /* Use this file to use your own styles*/
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: #202030;
 	background-color: #f8f8fc;
 }
@@ -14,7 +14,7 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #A7C27F;
 }
 
 .resume-main {
@@ -22,7 +22,7 @@ body {
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #73DE99;
 }
 
 /* Styles for lists in the document */
@@ -36,7 +36,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #EE7623; 
 }
 
 .biography-details li, .skill-list li {
@@ -49,3 +49,14 @@ body {
 	height: 1em;
 	flex-basis: 1.4em;
 }
+
+.fw-bolder{color: #FFFFFF
+}
+
+.fst-italic-tagline{color: #FFFFFF
+}
+.contact-h2{text-align: center;}
+
+.Languages{text-align: center;}
+
+.other-skills{text-align: center;}
